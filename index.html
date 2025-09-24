@@ -80,7 +80,6 @@
             <nav class="hidden lg:flex space-x-8 items-center">
                 <a href="#about" class="text-gray-600 hover:text-pink-500 transition duration-300">サロンについて</a>
                 <a href="#instructor" class="text-gray-600 hover:text-pink-500 transition duration-300">講師紹介</a>
-                <a href="#before-after" class="text-gray-600 hover:text-pink-500 transition duration-300">お客様の声</a>
                 <a href="#course" class="text-gray-600 hover:text-pink-500 transition duration-300">コース</a>
                 <a href="#contact" class="bg-pink-500 text-white px-6 py-2 rounded-full hover:bg-pink-600 transition duration-300 shadow-lg">体験レッスン</a>
             </nav>
@@ -92,7 +91,6 @@
         <div id="mobile-menu" class="hidden lg:hidden px-6 pb-4">
             <a href="#about" class="block py-2 text-gray-600 hover:text-pink-500">サロンについて</a>
             <a href="#instructor" class="block py-2 text-gray-600 hover:text-pink-500">講師紹介</a>
-            <a href="#before-after" class="block py-2 text-gray-600 hover:text-pink-500">お客様の声</a>
             <a href="#course" class="block py-2 text-gray-600 hover:text-pink-500">コース</a>
             <a href="#contact" class="block mt-2 bg-pink-500 text-white text-center px-6 py-2 rounded-full hover:bg-pink-600 transition duration-300 shadow-lg">体験レッスン</a>
         </div>
@@ -154,7 +152,8 @@
                 <h2 class="responsive-h2 font-bold text-center mb-12 gradient-text font-serif">講師紹介</h2>
                 <div class="bg-white rounded-3xl shadow-xl p-8 md:p-12 flex flex-col md:flex-row items-center gap-8 md:gap-12">
                     <div class="md:w-1/3 text-center">
-                        <img src="https://placehold.co/400x400/f8bbd0/b71c1c?text=Akiko+Mitoma" 
+                        <!-- 画像パスをローカルファイルに変更 -->
+                        <img src="img/instructor-photo.jpg" 
                              onerror="this.onerror=null;this.src='https://placehold.co/400x400/f8bbd0/b71c1c?text=A.M';"
                              alt="講師 三苫明子" 
                              class="w-64 h-64 rounded-full mx-auto object-cover border-8 border-pink-200 shadow-lg">
@@ -168,51 +167,16 @@
                         </p>
                         <h4 class="responsive-h4 font-bold mb-3 text-pink-500">主な経歴</h4>
                         <ul class="list-disc list-inside text-gray-600 space-y-2">
-                            <li>20XX ミス・ビューティー・ジャパン ファイナリスト</li>
-                            <li>20XX ワールド・ビューティー・ページェント 日本代表</li>
-                            <li>大手モデル事務所にてウォーキング講師として活動</li>
-                            <li>ミスコンテスト指導歴 5年以上</li>
-                            <li>延べ指導人数 500人以上</li>
+                            <li>(株) 九三石油販売取締役</li>
+                            <li>AK不動産代表</li>
+                            <li>AKウォーキングサロン代表</li>
+                            <li>PWA®ウォーキング講師</li>
+                            <li>ミセス関西コレクション2023 九州エリア大会出場、受賞</li>
+                            <li>BeautyJapan 福岡2025 出場</li>
+                            <li>JFCA日本フォーマルウェアコンテスト2025 出場</li>
+                            <li>JAPANデニムコレクションなど多数のコンテストに出場、受賞</li>
+                            <li>BJF2026ウォーキング講師予定</li>
                         </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Before & After Section -->
-        <section id="before-after" class="py-20 bg-white">
-            <div class="container mx-auto px-6">
-                <h2 class="responsive-h2 font-bold text-center mb-12 gradient-text font-serif">お客様の変化 <br class="block md:hidden">(Before & After)</h2>
-                <div class="grid md:grid-cols-2 gap-10">
-                    <!-- Example 1 -->
-                    <div class="bg-pink-50 p-6 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
-                        <h3 class="responsive-h3 font-bold text-pink-600 mb-3">A様 (30代・デスクワーク)</h3>
-                        <p class="mb-4 text-gray-600">猫背とO脚に悩んでいましたが、3ヶ月で姿勢が劇的に改善！周りから「痩せた？」と聞かれることが増えました。</p>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <img src="https://placehold.co/400x600/e0e0e0/9e9e9e?text=Before" alt="A様 Before" class="rounded-lg shadow-md w-full">
-                                <p class="text-center mt-2 font-bold text-gray-500">Before</p>
-                            </div>
-                            <div>
-                                <img src="https://placehold.co/400x600/f8bbd0/c2185b?text=After" alt="A様 After" class="rounded-lg shadow-md w-full">
-                                <p class="text-center mt-2 font-bold text-pink-500">After</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Example 2 -->
-                    <div class="bg-pink-50 p-6 rounded-2xl shadow-lg transform hover:scale-105 transition duration-300">
-                        <h3 class="responsive-h3 font-bold text-pink-600 mb-3">B様 (20代・学生)</h3>
-                        <p class="mb-4 text-gray-600">オーディションに向けてレッスンを受講。自信を持ってステージに立てるようになり、見事合格できました！</p>
-                        <div class="grid grid-cols-2 gap-4">
-                            <div>
-                                <img src="https://placehold.co/400x600/e0e0e0/9e9e9e?text=Before" alt="B様 Before" class="rounded-lg shadow-md w-full">
-                                <p class="text-center mt-2 font-bold text-gray-500">Before</p>
-                            </div>
-                            <div>
-                                <img src="https://placehold.co/400x600/f8bbd0/c2185b?text=After" alt="B様 After" class="rounded-lg shadow-md w-full">
-                                <p class="text-center mt-2 font-bold text-pink-500">After</p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
